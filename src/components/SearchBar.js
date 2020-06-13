@@ -17,7 +17,7 @@ class SearchBar extends React.Component{
     render(){
         return(
             <div>
-                <form onSubmit={this.onFormSubmit} className="form-group my-2 bg-dark text-white" style={{width:'75%', marginLeft: 'auto', marginRight: 'auto',border: '1px solid aliceblue',padding: 15, boxShadow: '1px 3px 1px 1px grey'}}>
+                <form onSubmit={this.onFormSubmit} className="form-group my-2 bg-red text-white" style={{width:'75%', marginLeft: 'auto', marginRight: 'auto',border: '1px solid aliceblue',padding: 15, boxShadow: '1px 3px 1px 1px grey'}}>
                     <label>Image Search:</label>
                     <input type="text" value={this.state.input} onChange={this.onInputChange} className="form-control" />
                 </form>
